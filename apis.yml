@@ -1,7 +1,25 @@
 aid: miniso
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/miniso.png
 name: Miniso
-description: 'Miniso is a company surfaced as a portfolio company of hillhouse and added to the API Evangelist
-  network as a stub for enrichment. Sector: retail. This profile is a lead awaiting the enrichment pipeline.'
+description: 'MINISO is a global value retailer of lifestyle and consumer products —
+  home goods, accessories, cosmetics, stationery, toys and seasonal items — known for
+  its IP-collaboration merchandise (Harry Potter, PEANUTS, Sanrio, BT21 and others).
+  Founded in Guangzhou, China and publicly listed (NYSE/HKEX), the company operates
+  7,700+ stores across 112 markets worldwide. Surfaced in the API Evangelist network
+  as a portfolio company of Hillhouse; the public web presence is consumer- and
+  investor-facing and exposes no developer API, developer portal, or partner
+  integration platform at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/miniso/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,10 +29,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Retail
+- Lifestyle
+- Consumer Goods
+- Variety Store
+- E-commerce
+- Merchandise
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +45,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/miniso-domain-security.yml
 - type: Website
   url: https://www.miniso.com
+- type: Blog
+  url: https://www.miniso.com/brand/news.html
+- type: PrivacyPolicy
+  url: https://www.miniso.com/privacy.html
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
